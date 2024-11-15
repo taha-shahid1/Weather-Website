@@ -1,4 +1,4 @@
-let apiKey = process.env.API_KEY;
+let apiKey = process.env.NEXT_PUBLIC_API_KEY;
 let submitButton = document.getElementById("submitButton");
 
 submitButton.addEventListener("click", function(event){
